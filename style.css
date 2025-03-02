@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #4E9F3D;
+    background-color: #7de469;
 }
 
 .wrapper{
@@ -24,6 +24,8 @@ label{
    display: block;
 }
 
+
+
 span{
     position: relative;
     font-size: 22px;
@@ -37,11 +39,16 @@ span{
     gap: 10px;
 }
 
-button::hover{
-    background-color: #D8E9A8;
+button{
+    background-color: green;
     border: none ;
     border-radius: 5px;
     padding: 8px;
+    color: white;
+}
+
+button:hover{
+    background-color: greenyellow;
     color: black;
 }
 
